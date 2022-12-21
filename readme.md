@@ -88,6 +88,7 @@ Epoch 200/1, Step 231/2, size (640, 640), loss: 27.2405, lbox: 0.0797, lobj: 2.6
 Epoch 200/1, Step 231/3, size (640, 640), fp/bp time cost: 426.39 ms
 Epoch 200/1, Step 231/3, size (640, 640), loss: 27.2644, lbox: 0.0864, lobj: 2.6964, lcls: 0.6253, cur_lr: [0.00000433, 0.00000433, 0.09980433], step time: 430.63 ms
 ```
+这里在个人电脑上进行训练，总耗时约5小时。
 
 ## 测试
 这里给出基于`tiny_coco`数据集训练最后得到的模型权重文件`yolov7_tiny_ours.ckpt`。运行`test.py`分别得到混淆矩阵confusion_matrix、查准率和召回率的调和平均数F1-score、准确率和置信度的关系图P_curve、精准率与召回率的关系图PR_curve以及召回率和置信度之间的关系图R_curve。
